@@ -1,7 +1,7 @@
 {
-	"name": "inferno-tsx",
+	"name": "electron-inferno-typescript-starter",
 	"version": "1.0.0",
-	"description": "inferno typescript tsx webpack starter template",
+	"description": "Pre-configured Electron v6 + Inferno + TypeScript + Webpack v4 starter project",
 	"scripts": {
 		"start": "npm run build && electron ./dist/main.bundle.js",
 		"dev-renderer": "cross-env NODE_ENV=development webpack --config webpack.renderer.config.js --progress --colors",
@@ -15,8 +15,8 @@
 		"pack": "npm run build:prod && electron-builder --dir",
 		"postinstall": "electron-builder install-app-deps"
 	},
-	"keywords": [],
-	"author": "Ayon Saha",
+	"keywords": ["Electron","Inferno","TypeScript","Webpack"],
+	"author": "Ayon Saha <ayonsaha2011@gmail.com>",
 	"license": "MIT",
 	"build": {
 		"appId": "com.devtography.electron_boilerplate",
