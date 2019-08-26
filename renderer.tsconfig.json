@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"pretty": true,
+		"target": "es5",
+		"module": "commonjs",
+		"allowSyntheticDefaultImports": true,
+		"preserveConstEnums": true,
+		"sourceMap": true,
+		"moduleResolution": "node",
+		"lib": ["es2017", "dom"],
+		"types": [
+			"inferno"
+		],
+		"jsx": "preserve",
+		"noUnusedLocals": false,
+		"baseUrl": "./renderer-src",
+		"noEmit": true,
+		"skipLibCheck": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+	},
+	"include": [
+		"renderer-src/**/*",
+		"node_modules/inferno/dist/index.d.ts"
+	],
+	"exclude": [
+		"**/*.test.ts",
+		"node_modules"
+	]
+}

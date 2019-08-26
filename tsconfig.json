@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "jsx": "preserve",
+      "baseUrl": ".",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noUnusedLocals": false,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "strictNullChecks": true,
+      "sourceMap": true,
+      "target": "esnext"
+    },
+    "include": [
+		"main-src/**/*"
+	],
+	"exclude": [
+		"**/*.test.ts",
+		"node_modules"
+	]
+  }
